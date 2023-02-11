@@ -15,7 +15,6 @@ const StorageScheme = new mongoose.Schema(
         timestamps: true, // CreatedAd, UpdatedAt
         versionKey: false,
     }
-
 );
 
 module.exports = mongoose.model("storages", StorageScheme);
